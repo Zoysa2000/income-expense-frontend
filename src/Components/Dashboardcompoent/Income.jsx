@@ -5,6 +5,7 @@ import {useState} from "react";
 import Incomeapi from "../../API/Incomeapi.jsx";
 import {Bounce, toast, ToastContainer} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Incometable from "./Incometable.jsx";
 
 
 const Income = () => {
@@ -111,6 +112,8 @@ const Income = () => {
                 theme="light"
                 transition={Bounce}
             />
+
+            <Incometable/>
         </div>
 
 
