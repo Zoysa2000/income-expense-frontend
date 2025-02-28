@@ -43,13 +43,6 @@ const Transactionbtn = () => {
                     </Link>
 
                 </div>
-                <div className="ml-12 flex items-center  space-x-1 rounded-lg hover:bg-gray-300 p-1 text-gray-800">
-                    <AiFillPlusCircle className="h-5 w-5 "/>
-                    <Link to="/budget">
-                        <li>Add Budget</li>
-                    </Link>
-
-                </div>
             </ul>
 
         </li>
