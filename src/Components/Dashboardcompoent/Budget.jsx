@@ -1,6 +1,7 @@
 import Maindashboard from "../Maindashboard.jsx";
 import EditIncometable from "./EditIncometable.jsx";
 
+
 const Budget = () => {
     return (
         <div>
